@@ -80,7 +80,8 @@ A 10-member team consisting of:
 ---
 ## Limitations & Future Improvements
 
-- The UI construction in this dialog is currently implemented as inline, hand-written layouts, resulting in repeated setup logic across the three user-role sections. A future improvement would be to refactor these blocks into a reusable component or a small custom widget to reduce duplication and improve maintainability.
+The UI construction in this dialog is currently implemented as inline, hand-written layouts, resulting in repeated setup logic across the three user-role sections. A future improvement would be to refactor these blocks into a reusable component or a small custom widget to reduce duplication and improve maintainability.
+
 ---
 ## Achievements
 
