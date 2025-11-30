@@ -5,37 +5,81 @@
 #include <QPolygon>
 #include <QPoint>
 
-void draw_all_levels(QPainter &painter)
+void draw_level(QPainter &painter, int level)
 {
-	draw_level0(painter);
-	draw_level1(painter);
-	draw_level2(painter);
-	draw_level3(painter);
-	draw_level4(painter);
-	draw_level5(painter);
-	draw_level6(painter);
-	draw_level7(painter);
-	draw_level8(painter);
-	draw_level9(painter);
-	draw_level10(painter);
-	draw_level11(painter);
-	draw_level12(painter);
-	draw_level13(painter);
+	switch (level)
+	{
+	case 0:
+		draw_level0(painter);
+		break;
+	case 1:
+		draw_level1(painter);
+		break;
+	case 2:
+		draw_level2(painter);
+		break;
+	case 3:
+		draw_level3(painter);
+		break;
+	case 4:
+		draw_level4(painter);
+		break;
+	case 5:
+		draw_level5(painter);
+		break;
+	case 6:
+		draw_level6(painter);
+		break;
+	case 7:
+		draw_level7(painter);
+		break;
+	case 8:
+		draw_level8(painter);
+		break;
+	case 9:
+		draw_level9(painter);
+		break;
+	case 10:
+		draw_level10(painter);
+		break;
+	case 11:
+		draw_level11(painter);
+		break;
+	case 12:
+		draw_level12(painter);
+		break;
+	case 13:
+		draw_level13(painter);
+		break;
+	default:
+		break;
+	}
 }
 
+void draw_all_levels(QPainter &painter)
+{
+	for (int level = 0; level <= 13; ++level)
+	{
+		draw_level(painter, level);
+	}
+}
+
+/* Generates wind flag icons for levels 0–13 and saves them as wind_flag_graphs/leveln.png.These functions only generate offline image files. They do NOT draw directly onto any window or widget. */
+
+int standard_height = 24;
 int standard_length = 24 / 2;
 int interval = 24 / 6;
 
 void draw_level0(QPainter &painter)
 {
-	QImage image(24 / 2, 24, QImage::Format_ARGB32);
+	QImage image(standard_length, standard_height, QImage::Format_ARGB32);
 	image.fill(Qt::transparent);
 	image.save("wind_flag_graphs/level0.png");
 }
 
 void draw_level1(QPainter &painter)
 {
-	QImage image(24 / 2, 24, QImage::Format_ARGB32);
+	QImage image(standard_length, standard_height, QImage::Format_ARGB32);
 	image.fill(Qt::transparent);
 
 	// level 1
@@ -54,7 +98,7 @@ void draw_level1(QPainter &painter)
 
 void draw_level2(QPainter &painter)
 {
-	QImage image(24 / 2, 24, QImage::Format_ARGB32);
+	QImage image(standard_length, standard_height, QImage::Format_ARGB32);
 	image.fill(Qt::transparent);
 
 	// level 2
@@ -73,7 +117,7 @@ void draw_level2(QPainter &painter)
 
 void draw_level3(QPainter &painter)
 {
-	QImage image(24 / 2, 24, QImage::Format_ARGB32);
+	QImage image(standard_length, standard_height, QImage::Format_ARGB32);
 	image.fill(Qt::transparent);
 
 	QPainter level3(&image);
@@ -92,7 +136,7 @@ void draw_level3(QPainter &painter)
 
 void draw_level4(QPainter &painter)
 {
-	QImage image(24 / 2, 24, QImage::Format_ARGB32);
+	QImage image(standard_length, standard_height, QImage::Format_ARGB32);
 	image.fill(Qt::transparent);
 
 	QPainter level4(&image);
@@ -111,7 +155,7 @@ void draw_level4(QPainter &painter)
 
 void draw_level5(QPainter &painter)
 {
-	QImage image(24 / 2, 24, QImage::Format_ARGB32);
+	QImage image(standard_length, standard_height, QImage::Format_ARGB32);
 	image.fill(Qt::transparent);
 
 	QPainter level5(&image);
@@ -131,7 +175,7 @@ void draw_level5(QPainter &painter)
 
 void draw_level6(QPainter &painter)
 {
-	QImage image(24 / 2, 24, QImage::Format_ARGB32);
+	QImage image(standard_length, standard_height, QImage::Format_ARGB32);
 	image.fill(Qt::transparent);
 
 	QPainter level6(&image);
@@ -151,7 +195,7 @@ void draw_level6(QPainter &painter)
 
 void draw_level7(QPainter &painter)
 {
-	QImage image(24 / 2, 24, QImage::Format_ARGB32);
+	QImage image(standard_length, standard_height, QImage::Format_ARGB32);
 	image.fill(Qt::transparent);
 
 	QPainter level7(&image);
@@ -172,7 +216,7 @@ void draw_level7(QPainter &painter)
 
 void draw_level8(QPainter &painter)
 {
-	QImage image(24 / 2, 24, QImage::Format_ARGB32);
+	QImage image(standard_length, standard_height, QImage::Format_ARGB32);
 	image.fill(Qt::transparent);
 
 	QPainter level8(&image);
@@ -193,7 +237,7 @@ void draw_level8(QPainter &painter)
 
 void draw_level9(QPainter &painter)
 {
-	QImage image(24 / 2, 24, QImage::Format_ARGB32);
+	QImage image(standard_length, standard_height, QImage::Format_ARGB32);
 	image.fill(Qt::transparent);
 
 	QPainter level9(&image);
@@ -219,7 +263,7 @@ void draw_level9(QPainter &painter)
 
 void draw_level10(QPainter &painter)
 {
-	QImage image(24 / 2, 24, QImage::Format_ARGB32);
+	QImage image(standard_length, standard_height, QImage::Format_ARGB32);
 	image.fill(Qt::transparent);
 
 	QPainter level10(&image);
@@ -245,7 +289,7 @@ void draw_level10(QPainter &painter)
 
 void draw_level11(QPainter &painter)
 {
-	QImage image(24 / 2, 24, QImage::Format_ARGB32);
+	QImage image(standard_length, standard_height, QImage::Format_ARGB32);
 	image.fill(Qt::transparent);
 
 	QPainter level11(&image);
@@ -272,7 +316,7 @@ void draw_level11(QPainter &painter)
 
 void draw_level12(QPainter &painter)
 {
-	QImage image(24 / 2, 24, QImage::Format_ARGB32);
+	QImage image(standard_length, standard_height, QImage::Format_ARGB32);
 	image.fill(Qt::transparent);
 
 	QPainter level12(&image);
@@ -299,7 +343,7 @@ void draw_level12(QPainter &painter)
 
 void draw_level13(QPainter &painter)
 {
-	QImage image(24 / 2, 24, QImage::Format_ARGB32);
+	QImage image(standard_length, standard_height, QImage::Format_ARGB32);
 	image.fill(Qt::transparent);
 
 	QPainter level13(&image);
