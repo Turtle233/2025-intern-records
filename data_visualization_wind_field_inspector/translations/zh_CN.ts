@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="zh_CN">
+<context>
+    <name>QObject</name>
+    <message>
+        <source>VDIRECT</source>
+        <translation>垂直风向</translation>
+    </message>
+    <message>
+        <source>HDIRECT</source>
+        <translation>水平风向</translation>
+    </message>
+    <message>
+        <source>HSPEED(m/s)</source>
+        <translation>水平风速(m/s)</translation>
+    </message>
+    <message>
+        <source>VSPEED(m/s)</source>
+        <translation>垂直风速(m/s)</translation>
+    </message>
+    <message>
+        <source>TITLE</source>
+        <translation>风廓图预览</translation>
+    </message>
+    <message>
+        <source>UP</source>
+        <translation>向上</translation>
+    </message>
+    <message>
+        <source>DN</source>
+        <translation>向下</translation>
+    </message>
+    <message>
+        <source>TIME</source>
+        <translation>时间</translation>
+    </message>
+    <message>
+        <source>HEIGHT</source>
+        <translation>高度(m)</translation>
+    </message>
+    <message>
+        <source>INFO_DISPLAY</source>
+        <translation>信息展示栏</translation>
+    </message>
+</context>
+</TS>

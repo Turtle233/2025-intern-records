@@ -1,0 +1,25 @@
+<UI version="4.0" >
+ <class>wind_viewClass</class>
+ <widget class="QWidget" name="wind_viewClass" >
+  <property name="objectName" >
+   <string notr="true">wind_viewClass</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>wind_view</string>
+  </property>$centralwidget$
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <resources>
+   <include location="wind_view.qrc"/>
+ </resources>
+ <connections/>
+</UI>

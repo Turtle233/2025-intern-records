@@ -1,0 +1,25 @@
+<UI version="4.0" >
+ <class>new_project_dialogClass</class>
+ <widget class="QDialog" name="new_project_dialogClass" >
+  <property name="objectName" >
+   <string notr="true">new_project_dialogClass</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>new_project_dialog</string>
+  </property>$centralwidget$
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <resources>
+   <include location="new_project_dialog.qrc"/>
+ </resources>
+ <connections/>
+</UI>
