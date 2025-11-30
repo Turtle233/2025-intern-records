@@ -146,7 +146,7 @@ A 15-member team consisting of:
 ### Interaction & Redraw
 
 - Implemented interactive selection using update()/repaint() workflow
-- Modularized graphical logic (e.g., `wind_field_inspector`) for reusability
+- Modularized graphical logic (e.g., `draw_wind_indicator`) for reusability
 
 ---
 
@@ -184,6 +184,12 @@ _Below are condensed high-impact challenges demonstrating engineering problem-so
 ### Wind-Barb Image Alignment
 
 **Solution:** Avoided forced scaling; centered images within each grid cell to maintain clarity and prevent distortion.
+
+---
+
+## Limitations & Future Improvements
+
+The wind-flag drawing module (wind_graphs) is functional but not yet fully structured. The current implementation still relies on multiple level-specific functions with duplicated drawing logic, and the overall process has not been refactored into a unified or data-driven workflow. In future updates, the rendering pipeline can be redesigned to improve code reuse, reduce duplication
 
 ---
 
