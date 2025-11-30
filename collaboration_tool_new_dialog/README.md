@@ -7,7 +7,7 @@ My work focused on Qt-based UI development, cross-platform interface design, cus
 
 # Internship Record 1
 
-## Cross-Department Digital Collaboration Tool Backend Integration
+## Cross-Department Digital Collaboration Tool Development
 
 ### Team Size & Roles
 
@@ -85,4 +85,5 @@ The UI construction in this dialog is currently implemented as inline, hand-writ
 - Delivered multiple UI modules integrated successfully into the production environment
 - Built a fully functional custom window framework
 - Improved multi-user editing experience with consistent UI and smooth interactions
+
 
