@@ -192,8 +192,7 @@ _Below are condensed high-impact challenges demonstrating engineering problem-so
 ---
 
 ## Limitations & Future Improvements
-
-The wind-flag drawing module (`wind_graphs`) is functional but not yet fully structured. The current implementation still relies on multiple level-specific functions with duplicated drawing logic, and the overall process has not been refactored into a unified or data-driven workflow. In future updates, the rendering pipeline can be redesigned to improve code reuse, and reduce duplication.
+The project works functionally, but the rendering pipeline is lacking modularity, layering, and separation of concerns. For example, the wind-flag drawing module (`wind_graphs`) is functional but not yet fully structured. The current implementation still relies on multiple level-specific functions with duplicated drawing logic, and the overall process has not been refactored into a unified or data-driven workflow. In future updates, the rendering pipeline can be redesigned to improve code reuse, and reduce duplication.
 
 ---
 
