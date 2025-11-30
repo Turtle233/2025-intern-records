@@ -8,9 +8,9 @@ This repository contains my own implementations and representative components th
 
 ---
 
-# [Internship Record 1](/data_visualization_wind_field_inspector)
+# Internship Record 1
 
-## Cross-Department Digital Collaboration Tool Development
+## [Cross-Department Digital Collaboration Tool Development](/collaboration_tool_new_dialog)
 
 ### Team Size & Roles
 
@@ -91,7 +91,7 @@ The UI construction in this dialog is currently implemented as inline, hand-writ
 
 # Internship Record 2
 
-## Meteorological Data Visualization Software Development
+## [Meteorological Data Visualization Software Development](/data_visualization_wind_field_inspector)
 
 ### Note
 
