@@ -88,7 +88,7 @@ A 15-member team consisting of:
 
 ## Key Technical Challenges
 
-_Below are condensed high-impact challenges demonstrating engineering problem-solving skills._
+_Below are summerized high-impact challenges demonstrating engineering problem-solving skills._
 
 ### Precision Loss in Height Mapping
 
@@ -116,6 +116,7 @@ The project works functionally, but the rendering pipeline is lacking modularity
 - Resolved multiple precision, coordinate, and rendering challenges
 - Achieved efficient integration of large datasets with dynamic graphics
 - Significantly enhanced atmospheric data interpretation through visual analytics
+
 
 
 
