@@ -6,6 +6,8 @@
 
 void draw_all_levels(QPainter &painter);
 
+void draw_level(QPainter &painter, int level);
+
 void draw_level0(QPainter &painter);
 void draw_level1(QPainter &painter);
 void draw_level2(QPainter &painter);
