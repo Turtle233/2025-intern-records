@@ -203,7 +203,8 @@ The project works functionally, but the rendering pipeline is lacking modularity
 
 # Internship Record 3
 
-## Backend Integration for Cross-Department Digital Collaboration Tool 09/2025 – Present 
+## Backend Integration for Cross-Department Digital Collaboration Tool
+09/2025 – Present
 
 During the ongoing development phase of the Cross-Department Digital Collaboration Tool, I continued to extend my contributions beyond the front-end module by assisting with backend integration tasks. Due to the project’s internal nature and its operation within a VPN-restricted environment, the code cannot be publicly shared. My work has focused primarily on connecting the C++/Qt interface with the company’s internal database system and ensuring secure, synchronized data operations across multiple user roles.
 
