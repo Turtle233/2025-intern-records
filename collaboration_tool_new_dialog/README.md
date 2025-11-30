@@ -1,4 +1,4 @@
-## [Click here to navigate to Main README](../README.md)
+## [Back to Main README](../README.md)
 # Internship Project Overview
 
 This repository documents two major projects I contributed to during my internships.  
@@ -86,6 +86,7 @@ The UI construction in this dialog is currently implemented as inline, hand-writ
 - Delivered multiple UI modules integrated successfully into the production environment
 - Built a fully functional custom window framework
 - Improved multi-user editing experience with consistent UI and smooth interactions
+
 
 
 
