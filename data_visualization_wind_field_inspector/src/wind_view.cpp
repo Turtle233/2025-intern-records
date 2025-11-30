@@ -24,6 +24,8 @@ namespace Layout
 	const int info_panel_x = margin_left + chart_width + 10;
 }
 
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
 wind_view::wind_view(QWidget *parent)
 	: QWidget(parent)
 {
@@ -429,6 +431,8 @@ void wind_view::draw_info_panel(QPainter &painter)
 		painter.drawText(vspeed_info_rect, vspeed_info_text);
 	}
 }
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
 
 void wind_view::mousePressEvent(QMouseEvent *event)
 {
