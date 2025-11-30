@@ -1,6 +1,4 @@
-# 2025-intern
-
-# Internship Project Overview
+# 2025 Internship Project Overview
 
 This repository documents two major projects I contributed to during my internships.  
 My work focused on Qt-based UI development, cross-platform interface design, custom window systems, data visualization, coordinate system design, and modular engineering practices.
