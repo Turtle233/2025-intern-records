@@ -4,7 +4,6 @@ This repository documents two major projects I contributed to during my internsh
 My work focused on Qt-based UI development, cross-platform interface design, custom window systems, data visualization, coordinate system design, and modular engineering practices.
 
 ---
-
 # Internship Record 2
 
 ## Meteorological Data Visualization Software Development
@@ -105,11 +104,16 @@ _Below are condensed high-impact challenges demonstrating engineering problem-so
 
 ---
 
+## Limitations & Future Improvements
+
+The wind-flag drawing module (wind_graphs) is functional but not yet fully structured. The current implementation still relies on multiple level-specific functions with duplicated drawing logic, and the overall process has not been refactored into a unified or data-driven workflow. In future updates, the rendering pipeline can be redesigned to improve code reuse, reduce duplication
+
+---
+
 ## Achievements
 
 - Developed a fully interactive meteorological data visualization module
 - Resolved multiple precision, coordinate, and rendering challenges
 - Achieved efficient integration of large datasets with dynamic graphics
 - Significantly enhanced atmospheric data interpretation through visual analytics
-
 
