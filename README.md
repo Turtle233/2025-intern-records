@@ -203,6 +203,7 @@ The project works functionally, but the rendering pipeline is lacking modularity
 - Significantly enhanced atmospheric data interpretation through visual analytics
 ---
 # Contact
-If you would like more information, feel free to contact:
-Ruixuan Zhang
-zhang14@nsuok.edu
+
+If you have any question or would like more information, feel free to contact:
+ Ruixuan Zhang
+ zhang14@nsuok.edu
