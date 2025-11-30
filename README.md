@@ -78,7 +78,10 @@ A 10-member team consisting of:
 - Implemented stable drag/resize behavior for a cross-platform custom frameless window.
 
 ---
+## Limitations & Future Improvements
 
+- The UI construction in this dialog is currently implemented as inline, hand-written layouts, resulting in repeated setup logic across the three user-role sections. A future improvement would be to refactor these blocks into a reusable component or a small custom widget to reduce duplication and improve maintainability.
+---
 ## Achievements
 
 - Delivered multiple UI modules integrated successfully into the production environment
