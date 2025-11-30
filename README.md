@@ -10,7 +10,7 @@ This repository contains my own implementations and representative components th
 
 # Internship Record 1
 
-## Cross-Department Digital Collaboration Tool Backend Integration
+## Cross-Department Digital Collaboration Tool Development
 
 ### Team Size & Roles
 
