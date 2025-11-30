@@ -8,7 +8,7 @@ This repository contains my own implementations and representative components th
 
 ---
 
-# Internship Record 1
+# [Internship Record 1](/data_visualization_wind_field_inspector)
 
 ## Cross-Department Digital Collaboration Tool Development
 
