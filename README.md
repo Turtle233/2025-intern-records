@@ -175,7 +175,6 @@ A 15-member team consisting of:
 
 ## Key Technical Challenges
 
-_Below are condensed high-impact challenges demonstrating engineering problem-solving skills._
 
 ### Precision Loss in Height Mapping
 
