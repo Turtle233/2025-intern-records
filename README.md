@@ -201,7 +201,7 @@ The project works functionally, but the rendering pipeline is lacking modularity
 - Resolved multiple precision, coordinate, and rendering challenges
 - Achieved efficient integration of large datasets with dynamic graphics
 - Significantly enhanced atmospheric data interpretation through visual analytics
-
+---
 # Contact
 If you would like more information, feel free to contact:
 Ruixuan Zhang
